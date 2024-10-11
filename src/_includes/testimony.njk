@@ -1,0 +1,33 @@
+<div id="testimony" class="section">
+  <div style="background-color: var(--primary0);">
+    <section>
+      <div style="padding: 72px 0; margin-top: 192px;">
+        <h2 class="headings text-center primary-text" style="margin-bottom: 64px;">Testimoni Peserta</h2>
+        <div id="testimonyCarousel" class="carousel slide carousel-dark" style="height: fit-content" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            {% for d in testimony %}
+              <div class="carousel-item {{ 'active' if loop.index == 1 else ''}}" style="height: fit-content;" data-bs-interval="4000">
+                <div class="d-flex p-xl-5 gap-5 flex-wrap" style="max-width: 926px; margin: auto;">
+                  <div class="img-wrap">
+                    <img src="images{{ d.avatar }}" style="width: 170px; height: 210px;" alt="participant photo"/>
+                  </div>
+                  <div style="width: fit-content;">
+                    <p class="mb-4 text-justify" style="color: var(--neutral9); font-size: 18px;">&quot;{{ d.testi }}&quot;</p>
+                    <strong class="m-0">{{ d.name }}</strong>
+                    <p class="regular">{{ d.univ }}</p>
+                  </div>
+                </div>
+              </div>
+            {% endfor %}
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#testimonyCarousel" data-bs-slide="prev">
+            <img src="images/prevIcon.svg" style="width: 48px; height: 48px;" alt="previous testimony"/>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#testimonyCarousel" data-bs-slide="next">
+            <img src="images/nextIcon.svg" style="width: 48px; height: 48px;" alt="next testimony"/>
+          </button>
+        </div>
+      </div>
+    </section>
+  </div>
+</div>

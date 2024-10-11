@@ -1,0 +1,87 @@
+<div id="winners" class="section">
+  <div class="container" style="background-color: var(--secondary5); font-weight: 600;">
+    <div class="container-badge">
+      <img src="images/streamline_trophy-solid.svg" style="width: 50px;" alt="trophy"/>
+    </div>
+    <p class="text-lg text-white text-center m-0 px-3">5 Pemenang EMC 2023</p>
+    <section class="w-100">
+      <div class="winner-container justify-content-between align-items-end py-5 w-100" style="min-height: 450px;">
+        <div class="winner-card winner">
+          <div class="avatar">
+            <img src="images{{ winners.winner.avatar }}" alt="winner's photo"/>
+          </div>
+          <div style="margin-top: -38px;">
+            <img src="images/winner_logo/noto_1st-place-medal.svg" style="width: 72px; height: 72px;" alt="1st-place-medal"/>
+          </div>
+          <div class="text-white">{{ winners.winner.nama }}</div>
+          <div class="d-flex align-items-center gap-2">
+            <div class="d-flex align-items-center bg-white overflow-hidden border border-white winner-logo" style="border-radius: 50%;, flex-shrink: 0;">
+              <img src="images{{ winners.winner.logo }}" alt="fourth place winner's business logo"/>
+            </div>
+            <div class="text-xs" style="color: var(--secondary2);">{{ winners.winner.business }}</div>
+          </div>
+        </div>
+        <div class="winner-card second">
+          <div class="avatar">
+            <img src="images{{ winners.second_place.avatar }}" alt="second place winner's photo"/>
+          </div>
+          <div style="margin-top: -28px;">
+            <img src="images/winner_logo/noto_2nd-place-medal.svg" style="width: 48px; height: 48px;" alt="1st-place-medal"/>
+          </div>
+          <div class="text-white">{{ winners.second_place.nama }}</div>
+          <div class="d-flex align-items-center gap-2">
+            <div class="d-flex align-items-center bg-white overflow-hidden border border-white winner-logo" style="border-radius: 50%; flex-shrink: 0;">
+              <img src="images{{ winners.second_place.logo }}" alt="fourth place winner's business logo"/>
+            </div>
+            <div class="text-xs" style="color: var(--secondary2);">{{ winners.second_place.business }}</div>
+          </div>
+        </div>
+        <div class="winner-card third">
+          <div class="avatar">
+            <img src="images{{ winners.third_place.avatar }}" alt="third place winner's photo"/>
+          </div>
+          <div style="margin-top: -28px">
+            <img src="images/winner_logo/noto_3rd-place-medal.svg" style="width: 48px; height: 48px;" alt="1st-place-medal"/>
+          </div>
+          <div class="text-white">{{ winners.third_place.nama }}</div>
+          <div class="d-flex align-items-center gap-2">
+            <div class="d-flex align-items-center bg-white overflow-hidden border border-white winner-logo" style="border-radius: 50%; flex-shrink: 0;">
+              <img src="images{{ winners.third_place.logo }}" alt="fourth place winner's business logo"/>
+            </div>
+            <div class="text-xs" style="color: var(--secondary2);">{{ winners.third_place.business }}</div>
+          </div>
+        </div>
+        <div class="winner-card fourth">
+          <div class="avatar">
+            <img src="images{{ winners.fourth_place.avatar }}" alt="fourth place winner's photo"/>
+          </div>
+          <div style="margin-top: -28px;">
+            <img src="images/winner_logo/noto_4th-place-medal.svg" style="width: 48px; height: 48px;" alt="1st-place-medal"/>
+          </div>
+          <div class="text-white">{{ winners.fourth_place.nama }}</div>
+          <div class="d-flex align-items-center gap-2">
+            <div class="d-flex align-items-center bg-white overflow-hidden border border-white winner-logo" style="border-radius: 50%; flex-shrink: 0;">
+              <img src="images{{ winners.fourth_place.logo }}" alt="fourth place winner's business logo"/>
+            </div>
+            <div class="text-xs" style="color: var(--secondary2);">{{ winners.fourth_place.business }}</div>
+          </div>
+        </div>
+        <div class="winner-card fifth">
+          <div class="avatar">
+            <img src="images{{ winners.fifth_place.avatar }}" alt="fifth place winner's photo"/>
+          </div>
+          <div style="margin-top: -28px">
+            <img src="images/winner_logo/noto_5th-place-medal.svg" style="width: 48px; height: 48px;" alt="1st-place-medal"/>
+          </div>
+          <div class="text-white">{{ winners.fifth_place.nama }}</div>
+          <div class="d-flex align-items-center gap-2">
+            <div class="d-flex align-items-center bg-white overflow-hidden border border-white border-1 winner-logo" style="border-radius: 50%; flex-shrink: 0;">
+              <img src="images{{ winners.fifth_place.logo }}" alt="fourth place winner's business logo"/>
+            </div>
+            <div class="text-xs" style="color: var(--secondary2);">{{ winners.fifth_place.business }}</div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>  
+</div>

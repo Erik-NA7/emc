@@ -1,0 +1,36 @@
+{
+  "slide_1": [
+    {
+      "image": "images/benefit_1.svg",
+      "heading": "Pengetahuan Bisnis yang Mendalam",
+      "description": "Pelatihan soft dan hard skill dari para praktisi bisnis profesional, untuk menjamin kesiapan Anda dalam manajemen operasional, strategi pemasaran, keuangan, pengembangan produk, dan manajemen tim."
+    },
+    {
+      "image": "images/benefit_2.svg",
+      "heading": "Pengembangan Keterampilan Bisnis",
+      "description": "Pendampingan selama tiga bulan dari para profesional untuk mengembangkan potensi Anda sebagai entrepreneur dan membawa bisnis anda ke tingkat yang lebih tinggi."
+    },
+    {
+      "image": "images/benefit_3.svg",
+      "heading": "Pengembangan Rencana Bisnis",
+      "description": "Rencana bisnis yang kuat merupakan kunci kesuksesan bisnis Anda. Anda akan dibimbing dalam menyusun rencana bisnis yang terperinci dan terstruktur untuk mengidentifikasi target pasar yang tepat, mengembangkan strategi pemasaran yang efektif, dan menyusun rencana tindakan yang konkret untuk mencapai tujuan bisnis Anda."
+    }
+  ],
+  "slide_2": [
+    {
+      "image": "images/benefit_4.svg",
+      "heading": "Pemodalan",
+      "description": "Pemodalan bisnis senilai 150 Juta rupiah bagi para pemenang, memungkinkan entrepreneur untuk mengatasi tantangan finansial, mendorong pertumbuhan, dan mengambil peluang bisnis yang muncul."
+    },
+    {
+      "image": "images/benefit_5.svg",
+      "heading": "Jaringan dan Koneksi",
+      "description": "Kesempatan mendapatkan investor untuk memulai, mengembangkan, atau mengelola bisnis; menambah jaringan dan koneksi yang lebih luas dalam dunia bisnis."
+    },
+    {
+      "image": "images/benefit_6.svg",
+      "heading": "Entrepreneurship Trip",
+      "description": "Kesempatan untuk menggali ide, pengetahuan, dan pengalaman dari para pelaku bisnis, untuk menjamin pertumbuhan dan keberhasilan bisnis.      "
+    }
+  ]
+}

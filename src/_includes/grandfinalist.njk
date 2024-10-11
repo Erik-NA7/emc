@@ -1,0 +1,21 @@
+<section id="grandfinalist" class="section">
+  <div class="gf-container">
+    <div class="container-badge">
+      <img src="images/star_badge.svg" style="width: 50px;" alt="star icon"/>
+    </div>
+    <p class="text-lg primary-text text-center m-0">20 Besar Finalis Grand Final</p>
+    <div class="grid">
+      {% for p in peserta %}
+        <div class="grid-item">
+          <div class="d-flex align-items-center flex-shrink-0">
+            <img src="images/grand_finalist/{{ loop.index }}.webp" style="width: 64px;" alt="{{ p.nama }}"/>
+          </div>
+          <div>
+            <p class="text-sm semi-bold m-0">{{ p.nama }}</p>
+            <p class="text-sm m-0" style="color: var(--neutral6);">{{ p.kampus }}</p>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

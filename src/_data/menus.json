@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Beranda",
+    "target": "/#home"
+  },
+  {
+    "name": "Keuntungan",
+    "target": "/#keuntungan"
+  },
+  {
+    "name": "Persyaratan",
+    "target": "/#persyaratan"
+  },
+  {
+    "name": "Rangkaian Acara",
+    "target": "/#rangkaian-acara"
+  },
+  {
+    "name": "Panduan",
+    "target": "/#panduan"
+  },
+  {
+    "name": "Kontak",
+    "target": "/#kontak"
+  }
+]

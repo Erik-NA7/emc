@@ -1,0 +1,58 @@
+<section id="keuntungan" class="section">
+  <div class="mt-section">
+    <h2 class="headings text-center primary-text mb-4">Keuntungan</h2>
+    <p class="text-center mb-5" style="font-size: 18px; color: var(--neutral6);">
+      Dapatkan Keuntungan Nyata dengan Mengikuti Program Kewirausahaan Mahasiswa!
+    </p>
+    <div id="benefitsCarousel" class="carousel slide carousel-dark" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#benefitsCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"> 
+        </button>
+        <button type="button" data-bs-target="#benefitsCarousel" data-bs-slide-to="1" aria-label="Slide 2"> 
+        </button>
+      </div>
+      <div class="carousel-inner">
+        {# Slide-1 #}
+        <div class="carousel-item active">
+          <div class="d-flex justify-content-center flex-wrap gap-4">
+            {% for item in benefits.slide_1 %}
+            <div class="item">
+              <div class="card-img-wrap">
+                <img src="{{ item.image }}" alt="icon keuntungan bagi peserta" style="width: 70px; height: 70px;"/>
+              </div>
+              <div class="card-body p-0 mt-4">
+                <h3 class="headings">{{ item.heading}}</h3>
+                <p>{{ item.description}}</p>
+              </div>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+        {# Slide-2 #}
+        <div class="carousel-item">
+          <div class="d-flex justify-content-center flex-wrap gap-4">
+            {% for item in benefits.slide_2 %}
+            <div class="item">
+              <div class="card-img-wrap">
+                <img src="{{ item.image }}" alt="icon keuntungan bagi peserta" style="width: 70px; height: 70px;"/>
+              </div>
+              <div class="card-body p-0 mt-4">
+                <h3 class="headings">{{ item.heading}}</h3>
+                <p>{{ item.description}}</p>
+              </div>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#benefitsCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#benefitsCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,32 @@
+{
+  "winner": {
+    "nama": "Ida Bagus Ista Krishna",
+    "avatar": "/grand_finalist/1.webp",
+    "business": "LYS Animation Studio",
+    "logo": "/winner_logo/winner.webp"
+  },
+  "second_place": {
+    "nama": "Yonna Aparacitta",
+    "avatar": "/grand_finalist/7.webp",
+    "business": "Explorefoodsmg (Endorsement)",
+    "logo": "/winner_logo/second_place.webp"
+  },
+  "third_place": {
+    "nama": "Markus",
+    "avatar": "/grand_finalist/20.webp",
+    "business": "Yatoop - Kerupuk Ubi Kayu",
+    "logo": "/winner_logo/third_place.webp"
+  },
+  "fourth_place": {
+    "nama": "I Komang Restu Widi Artha",
+    "avatar": "/grand_finalist/16.webp",
+    "business": "Wine Tomato Jaya Pangus-Bali",
+    "logo": "/winner_logo/fourth_place.webp"
+  },
+  "fifth_place": {
+    "nama": "I Made Krystya Darma",
+    "avatar": "/grand_finalist/12.webp",
+    "business": "SEGARA Essentials (Fashion)",
+    "logo": "/winner_logo/fifth_place.webp"
+  }
+}

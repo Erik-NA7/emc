@@ -1,0 +1,56 @@
+[
+  {
+    "header": "Apa itu program Entrepreneurship Mahasiswa?",
+    "items": ["Program Entrepreneuship Mahasiswa adalah program pelatihan dan kompetisi yang diadakan oleh Bimas Hindu – Kementerian Agama bagi mahasiswa Hindu untuk mengembangkan jiwa kewirausahaan, gagasan bisnis, membangun start up baru, dan mengembangakan jaringan dan ekosestem bisnis."]
+  },
+  {
+    "header": "Bagaimana cara mengikuti program ini?",
+    "items": [
+      "Anda harus mendapat akses di dalam Sistem Entrepreneur.",
+      "Daftarkan diri anda sebagai peserta.",
+      "Daftarkan Ide Bisnis Anda."
+    ]
+  },
+  {
+    "header": "Bagaimana cara daftar ke dalam Sistem Entrepreneur?",
+    "items": [
+      "Dari halaman website, piih tombol Daftar atau Daftar Event.",
+      "Masukkan alamat email dan nama lengkap lalu pilih tombol Daftar.",
+      "Buka email anda dan verifikasi email yang dikirimkan oleh Sistem Entrepreneur (entrepreneur@humantechno.co.id)",
+      "Masukkan Password yang anda inginkan, ingat baik-baik password yang anda gunakan.",
+      "Anda akan masuk ke halaman dashboard Sistem Entrepreneur."
+    ]
+  },
+  {
+    "header": "Bagaimana cara daftar Sebagai Peserta?",
+    "items": [
+      "Pada dashboard Sistem Entrepreneur, pilih tombol Buat untuk mendaftarkan diri anda.",
+      "Isi data diri anda dan upload semua dokumen yang dibutuhkan, foto diri, KTP, Kartu Mahasiswa, Surat Keterangan dari Kampus, dalam format .jpg.",
+      "Pastikan semua kebutuhan data sudah terisi dan benar.",
+      "Pilih tombol Save untuk menyimpan data anda.",
+      "Pilih tombol Konfirmasi untuk mengirim data anda ke panitia."
+    ]
+  },
+  {
+    "header": "Bagaimana cara masuk ke Sistem Entrepreneur?",
+    "items": [
+      "Dari halaman website, piih tombol Masuk.",
+      "Masukkan alamat email dan kata sandi lalu pilih tombol Masuk.",
+      "Anda akan masuk ke dashboard Sistem Entrepreneur"
+    ]
+  },
+  {
+    "header": "Saya lupa password. Bagaimana cara reset password?",
+    "items": [
+      "Dari halaman muka Sistem Entrepreneur, pilih tombol Reset Password.",
+      "Masukkan alamat email anda, lalu pilih tombol Confirm.",
+      "Buka email anda, dan pilh tombol Change password.",
+      "Masukkan kata sandi baru dan pilih Confirm.",
+      "Kata sandi anda sudah berubah dan Anda akan masuk ke halaman dashboard Sistem Entrepreneur."
+    ]
+  },
+  {
+    "header": "Kenapa Saya tidak terima email konfirmasi?",
+    "items": ["Pastikan email yang masukkan saat mendaftar di Sistem Entrepreneuship sudah benar. Coba periksa di folder Spam atau Junk."]
+  }
+]
